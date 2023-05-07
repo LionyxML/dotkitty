@@ -967,7 +967,7 @@ hide_window_decorations yes
 
 #: The foreground and background colors.
 
-background_opacity 0.85
+background_opacity 1
 
 #: The opacity of the background. A number between zero and one, where
 #: one is opaque and zero is fully transparent. This will only work if
@@ -2127,6 +2127,7 @@ map super+1 send_text all \x1b1
 map super+2 send_text all \x1b2
 map super+3 send_text all \x1b3
 map super+4 send_text all \x1b4
+map super+5 send_text all \x1b5
 map super+6 send_text all \x1b6
 map super+7 send_text all \x1b7
 map super+8 send_text all \x1b8
@@ -2199,6 +2200,6 @@ nt. Useful for debugging issues.
 
 
 # BEGIN_KITTY_THEME
-# Argonaut
+# Molokai
 include current-theme.conf
 # END_KITTY_THEME
